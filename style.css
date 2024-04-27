@@ -16,8 +16,7 @@ body {
   }
 
   p {
-    background-color: black;
-    color: white;
+    font-size: larger;
   }
 
   .navbar {
@@ -36,7 +35,7 @@ h1.text-center {
 }
 
 .card {
-  width: 300px;
+  width: 400px;
   height: 500px;
   border-radius: 20px;
   overflow: hidden;
@@ -49,7 +48,6 @@ h1.text-center {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 15px;
 }
 
 .card-body {
@@ -59,9 +57,9 @@ h1.text-center {
   right: -100%;
   position: absolute;
   background: #1f3d4738;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(20px);
   border-radius: 15px;
-  color: #f9fbfb;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -95,13 +93,10 @@ h1.text-center {
   cursor: pointer;
 }
 
-.row {
-  padding-top: 20px;
+p.card-info {
+  text-align: center;
 }
 
-
-
-.MOVE {
-  padding-top: 40px;
- color: rgb(4, 4, 46);
+#education {
+  padding-top: 30px;
 }
