@@ -114,19 +114,25 @@ p.card-info {
 
 
 .btn-primary {
-  border-color: #000000; 
+  border-color: pink; 
   color: #fff; 
-  background-color: pink; 
+  background-color: black; 
 }
 
 .btn-primary:hover {
-  background-color: #9200b3; /* Change the background color for primary button on hover */
-  border-color: black; /* Change the border color for primary button on hover */
+  background-color: pink; 
+  border-color: black; 
+  color: black;
 }
 
 h1.card-title {
   font-weight: bolder;
   background-color: black;
-  border-radius: 30px;
+  border-radius: 60px;
+  border: 4px solid pink;
+}
+
+li.highlight {
+  background-color: black;
   border: 2px solid pink;
 }
