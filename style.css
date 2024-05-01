@@ -2,7 +2,7 @@ body {
     background-color: pink;
 }
 .parallax {
-    background-image: url("imgs/paralax.jpeg");
+    background-image: url("imgs/parallax.jpeg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -12,6 +12,7 @@ body {
 
   p {
     font-size: larger;
+    font-family: 'Open Sans';
   }
 
   .navbar {
